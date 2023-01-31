@@ -7,5 +7,10 @@
 pragma solidity ^0.8.8;
 
 contract FundMe { 
-  
+  function fund() public {
+    // Want to be able to set a minimum fund amount in USD
+    // 1. How we send ETH to this contract
+  }
+
+  function withdraw() {}
 }
